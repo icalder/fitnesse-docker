@@ -1,0 +1,10 @@
+version: '2'
+services:
+  fitnesse:
+    build: .
+    container_name: fitnesse
+    command: [-v]
+    ports:
+      - "9091:8080"
+    volumes:
+      - ./data:/opt/fitnesse
