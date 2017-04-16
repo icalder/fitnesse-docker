@@ -6,7 +6,7 @@ This repository contains a Dockerfile for [FitNesse](http://www.fitnesse.org/) i
  * [openjdk:8](https://github.com/docker-library/openjdk)
 
 ## Usage
-    docker run -d --name fitnesse -p 9091:8080 -v$PWD/data:/opt/fitnesse icalder/fitnesse-docker
+    docker run -d --name fitnesse -p 9091:8080 -v$PWD/data:/opt/fitnesse icalder/fitnesse
 
 ## Example Java Test Setup
 ```
